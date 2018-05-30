@@ -2956,6 +2956,17 @@ custom_fields | object (optional) | Custom field attributes for this contact. Le
 custom_fields.job title | string | A custom field name defined in your company custom fields
 custom_fields.custom field name | string | A custom field name defined in your company custom fields
 
+### Custom Field Data Types
+
+Each custom field has a specified data type. Ensure the data you submit when updating a custom field's value is formatted correctly
+
+| Type     | Example      | Description               |
+|----------|--------------|---------------------------|
+| String   | "London, UK" | String values             |
+| Boolean  | true         | Boolean true/false values |
+| Number   | 90           | Integers                  |
+| Datetime | 1525417200   | Epoch timestamp           |
+
 ## Create contact
 ```shell
 
